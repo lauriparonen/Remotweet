@@ -29,7 +29,7 @@ authenticator.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(authenticator, wait_on_rate_limit=True)
 
-# Inserting the tweet contents into another text file:
+# Reading the tweet from the text file:
 f = open('Tweet.txt', 'r')
 Tweet = f.read()
 if len(Tweet) < 281:
@@ -38,7 +38,6 @@ if len(Tweet) < 281:
     confirm = input("Tweet this? (yes/no): ")
     if confirm == "yes":
         api.update_status(Tweet)
-        print("")
         print("Tweet sent successfully!")
     else:
         print("Tweet was not sent.")
