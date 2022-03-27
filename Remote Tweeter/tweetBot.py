@@ -43,7 +43,7 @@ if len(Tweet) < 281:
         print("Tweet was not sent.")
 else:
     print("The tweet you tried to send is too long; it has " + str(len(Tweet)) + " characters. \n")
-    print("This is ", len(Tweet) - 280, " characters too many.")
+    print("This is", len(Tweet) - 280, "characters too many.")
     print("Please try again!")
     print("")
 f.close()
