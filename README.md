@@ -18,7 +18,8 @@ If the character count exceeds 280, the program prints out an error message cont
 
 ---------------------------------------------------------------------------------
 
-V*0.1.
+V*0.1
+
 Under construction: 
 - a GUI remote tweeter
 - more features 
