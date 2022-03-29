@@ -1,6 +1,7 @@
-# RemoTweet-280
+# Remotweet
 
 A simple Python bot for tweeting without needing to open the Twitter client.
+Also changes the device name from which the tweet is sent - this is the name of your application on the Twitter dev portal. Come up with a good one!
 
 INSTRUCTIONS:
 
@@ -18,4 +19,6 @@ If the character count exceeds 280, the program prints out an error message cont
 ---------------------------------------------------------------------------------
 
 V*0.1.
-Coming soon: a GUI remote tweeter
+Under construction: 
+- a GUI remote tweeter
+- more features 
